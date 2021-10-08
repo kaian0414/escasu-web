@@ -1,5 +1,5 @@
 # escasu-web
-Coding for ESCA Student Union website.
+Coding for ESCA Student Union website. Because of the class suspended period, schoolmates who are not in Macao may not register the ESCASU activities via Google forms, I create the simple forms for registration. I create a simple homepage for self management but one of our member put the VERY VERY VERY SIMPLE homepage link publicly, it is really a POOR page! Therefore, I referenced online template and create a homepage for that link.
 
 ## Information of ESCASU
 Web:point_right: http://escasu.online/
@@ -13,8 +13,8 @@ In 2020/2021, ESCASU also got a page of introduction from MPISU website. The pag
 ## escasu_website_20210928
 Website index coding.
 
-## forms
-Registration forms for activities.
+## forms_newmember2122
+Registration forms for activities. In this repository, only the forms for new member 21/22 is stored. Other forms can also be created with this form.
 
 ## Reference
 [1] https://uideck.coms/
