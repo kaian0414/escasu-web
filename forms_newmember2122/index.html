@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ESCASU - New Member Application</title>
+	
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+		body {
+			background: #343a40;
+			line-height: 1.2;
+			padding: 20px;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		footer {
+			text-align: center;
+		}
+
+		a {
+			color: #61D2B4;
+		}
+
+		footer {
+			color: #FFFFFF;
+		}
+
+		span {
+			font-size: 24px;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+		input[type=radio] {
+			height: 20px;
+			width: 20px;
+		}
+
+		#Submit {
+			background: #FFFFFF;
+			color: #000000;
+			border: 1px solid #000;
+			padding: 15px;
+			text-align: center;
+			transition-duration: 0.4s;
+			cursor: pointer;
+			font-size: 30px;
+
+			margin-left: 25px;
+			-moz-box-shadow: 5px 5px 5px #888888;
+			box-shadow: 5px 5px 5px #888888;
+		}
+
+		#intro {
+			font-size: 20px;
+			line-height: 1.8em;
+			color: #FFFFFF;
+		}
+
+		#Submit:hover {
+			background-color: #D6D6D6;
+		}
+
+		#formHead {
+			text-align: center;
+			color: #61D2B4;
+		}
+
+		#formBody {
+			font-size: 20px;
+			margin: 25px;
+			padding: 20px;
+			background: #FFFFFF;
+			border-radius:10px;
+			-moz-box-shadow: 5px 5px 5px #888888;
+			box-shadow: 5px 5px 5px #888888;
+		}
+
+		#formTitle {
+			text-decoration-line: underline;
+		}
+
+		#attention {
+			color: blue;
+			font-size: 1.4em;
+		}
+	</style>
+</head>
+<body>
+	
+	<div>
+		<h1 id="formHead">應用科學高等學校學生會<br>招募新成員</h1>
+		<h3 id="formHead">ESCA Student Union - New Member Application</h3>
+	</div>
+
+	<br>
+	
+	<form name='orientation2021' method='post' action='action.php'>
+		<div id="intro">
+			<ol>
+				<li>報名將於 <span>2021年11月20日23:59截止</span>。</li>
+				<li>面試日期及時間將於報名截止後於以電郵形式通知報名同學。</li>
+				<li>本會考慮本澳疫情變化，面試將採用線上形式(Zoom)進行。</li>
+				<li>請準時出席面試，遲到或缺席者將被取消資格。</li>
+				<li>請仔細檢查所填寫的資料，如有任何錯誤而引致無法接收本會之通知，本會一概不負責任。</li>
+				<li>如有任何疑問，可以透過本會Facebook專頁、Instagram或以電郵形式與本會聯絡。</li>
+			</ol>
+			<ul>
+				<li>Facebook: <a href="http://facebook.com/escasu.mpi">http://facebook.com/escasu.mpi</a></li>
+				<li>Instagram: <a href="http://instagram.com/escasu.mpi">http://instagram.com/escasu.mpi</a></li>
+				<li>E-mail: <a href="mailto:mpi.escasu2019@gmail.com">mpi.escasu2019@gmail.com</a></li>
+			</ul>
+		</div>
+
+		<div id="formBody">
+			<h2 id="formTitle">個人資料</h2>
+			<p>姓名 (中文)：<input type="text" name="chinName" id="chinName" required></p>
+			<p>外文拼音：<input type="text" name="engName" id="engName" required></p>
+			<p>學生證編號 (例:P16xxxxx)：<input type="text" name="stuId" id="stuId" required></p>
+			<p>手提電話 (首選澳門電話號碼)：<input type="text" name="phone" id="phone" required></p>
+			<p>電郵地址 (請確保可接收Gmail電郵, 可填理工電郵)：<input type="text" name="email" id="email" required></p>
+			<br>
+			<p>就讀課程：</p>
+				<p><input type="radio" name="programme" value="電腦學學士學位課程" required> 電腦學學士學位課程</p>
+				<p><input type="radio" name="programme" value="中國與葡語系國家經貿關係學士學位課程"> 中國與葡語系國家經貿關係學士學位課程</p>
+				<p><input type="radio" name="programme" value="大數據與物聯網碩士學位課程"> 大數據與物聯網碩士學位課程</p>
+				<p><input type="radio" name="programme" value="計算機應用技術博士學位課程"> 計算機應用技術博士學位課程</p>
+			<br>
+			<p>年級(2021/2022學年)：</p>
+				<p><input type="radio" name="grade" value="大一" required> 大一</p>
+				<p><input type="radio" name="grade" value="大二"> 大二</p>
+				<p><input type="radio" name="grade" value="大三"> 大三</p>
+				<p><input type="radio" name="grade" value="大四"> 大四</p>
+				<p><input type="radio" name="grade" value="碩士"> 碩士</p>
+				<p><input type="radio" name="grade" value="博士"> 博士</p>
+			<br>
+			<p>自我介紹：</p>
+				<p><textarea name="selfIntro" id="selfIntro" cols="80" rows="10" required></textarea></p>
+
+		</div>
+
+		<div id="formBody">
+			<h2 id="formTitle">部門意願</h2>
+			<p>各部門的職能大致如下：</p>
+			<ul>
+				<li>總務部：處理營運事務、活動用品及財務管理等。</li>
+				<li>活動策劃部：構想及策劃活動，撰寫相關計劃書、與各部門溝通以準備本會活動的進行。</li>
+				<li>公關部：活動宣傳及對外交涉。</li>
+				<li>設計部：本會活動、宣傳等設計。</li>
+				<li>秘書部：處理本會文件、撰寫及整理會議紀錄、貼文及公告發佈等。</li>
+			</ul>
+			<br>
+			<p>第一志願：</p>
+				<p><input type="radio" name="firstChoice" value="總務部" required> 總務部</p>
+				<p><input type="radio" name="firstChoice" value="活動策劃部"> 活動策劃部</p>
+				<p><input type="radio" name="firstChoice" value="公關部"> 公關部</p>
+				<p><input type="radio" name="firstChoice" value="設計部"> 設計部</p>
+				<p><input type="radio" name="firstChoice" value="秘書部"> 秘書部</p>
+			<br>
+			<p>第二志願：</p>
+				<p><input type="radio" name="secondChoice" value="總務部" required> 總務部</p>
+				<p><input type="radio" name="secondChoice" value="活動策劃部"> 活動策劃部</p>
+				<p><input type="radio" name="secondChoice" value="公關部"> 公關部</p>
+				<p><input type="radio" name="secondChoice" value="設計部"> 設計部</p>
+				<p><input type="radio" name="secondChoice" value="秘書部"> 秘書部</p>
+		</div>
+
+		<div id="formBody">
+			<p id="attention">請檢查是否填妥所有資料！謝謝~</p>
+			<p>所有資料僅用作是次招募新成員之用，如同學不希望以網絡形式提交資料，請與本會聯絡，本會將為其報名另作安排。謝謝！</p>
+		</div>
+
+		<input type="submit" name="Submit" id="Submit" value="Submit">
+	</form>
+
+	<footer>
+		© 2021 ESCA Student Union.<br>All rights reserved.
+	</footer>
+</body>
+</html>
