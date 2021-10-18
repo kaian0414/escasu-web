@@ -2,6 +2,8 @@
 Coding for ESCA Student Union website. Because of the class suspended period, schoolmates who are not in Macao may not register the ESCASU activities via Google forms, I create the simple forms for registration. I create a simple homepage for self management but one of our member put the VERY VERY VERY SIMPLE homepage link publicly, it is really a POOR page! Therefore, I referenced online template and create a homepage for that link.
 
 ## Information of ESCASU
+The following links are available on 19-Oct-2021 but I cannot guarantee if they are still available in the future.
+
 Web:point_right: http://escasu.online/
 
 FB:point_right: https://www.facebook.com/escasu.mpi/
