@@ -21,4 +21,4 @@ Website index coding.
 Registration forms for activities. In this repository, only the forms for new member 21/22 is stored. Other forms can also be created with this form.
 
 ## Reference
-[1] https://uideck.coms/
+[1] [UIdeck](https://uideck.com/)
